@@ -1,0 +1,384 @@
+# Java Programs Pseudocode
+
+This repository contains various Java programs with their corresponding pseudocode.
+
+## 1. ArmStrongNumber.java
+```
+DECLARE num : INTEGER
+DECLARE num1 : INTEGER
+DECLARE sum : INTEGER
+DECLARE Lastdigit : INTEGER
+READ num
+SET num1 := num
+SET sum := 0
+WHILE(num > 0)
+    LastDigit = num MOD 10
+    sum = sum + LastDigit*LastDigit*LastDigit
+    num = num/10
+END WHILE
+IF (sum == num1) THEN
+    PRINT "Palindrome"
+ELSE
+    PRINT "Not Palindrome"
+```
+
+## 2. CheckWhetherDigitisPresent.java
+```
+DECLARE NUM: INTEGIER
+DECLARE Lastdigit : INTEGER
+DECLARE d: INTEGER
+DECLARE found: BOOLEAN
+SET found = False
+Read d
+WHILE num > 0
+    Lastdigit =num MOD 10
+    num = num/10
+    If Lastdigit == d THEN
+        found = TRUE
+        BREAK
+    END IF
+END WHILE
+IF Found ==TRUE THEN
+    PRINT" Search Succesfull"
+ELSE
+    PRINT "Search unsuccesstul"
+END IF
+```
+
+## 3. CountDigitsOfaNumber.java
+```
+DECLARE num:INTEGER
+DECLARE count:INTEGER
+SET count := 0
+READ num
+WHILE num > 0
+    num = num/10
+    INCREMENT count
+END WHILE
+PRINT count
+```
+
+## 4. CountHowManyDigits.java
+```
+DECLARE num: INTEGER
+DECLARE d: INTEGER
+DECLARE count: INTEGER
+DECLARE lastdigit: INTEGER
+SET count := 0
+READ num, d
+WHILE num > 0
+    lastdigit = num MOD 10
+    IF lastdigit == d THEN
+        INCREMENT count
+    END IF
+    num = num / 10
+END WHILE
+PRINT count
+```
+
+## 5. ExampleOne.java
+```
+DECLARE x : INTEGER
+DECLARE y : INTEGER
+SET x = 15, y = 12
+y = x-1
+do {
+    PRINT x
+    x = y + (x-2)
+} WHILE (x < 40)
+END DOWHILE
+```
+
+## 6. FibonacciSeries.java
+```
+DECLARE n: INTEGER
+DECLARE prev : INTEGER
+DECLARE next : INTEGER
+DECLARE sum : INTEGER
+SET prev:=0,next:=1,sum:=0
+READ n
+PRINT prev
+PRINT next
+WHILE sum <= 0
+    sum := prev + next
+    PRINT sum
+    prev := next
+    next := sum
+END WHILE
+```
+
+## 7. PalinDromeNumber.java
+```
+DECLARE n: INTEGER
+DECLARE r: INTEGER
+DECLARE m: INTEGER
+DECLARE lastdigit: INTEGER
+SET r := 0
+READ n
+SET m := n
+WHILE n > 0
+    lastdigit = n MOD 10
+    r = r * 10 + lastdigit
+    n = n / 10
+END WHILE
+IF m == r THEN
+    PRINT "Palindrome"
+ELSE
+    PRINT "Not Palindrome"
+END IF
+```
+
+## 8. PrimeNumber.java
+```
+DECLARE N:INTEGER
+READ N
+IF(N == 2)THEN
+    PRINT "Prime Number"
+    STOP
+ELSE
+    for i ← 2 TO √n DO
+        IF N MOD i = 0 THEN
+            PRINT "Not Prime Number"
+            STOP
+        END IF
+    END FOR
+END IF
+PRINT "Prime"
+```
+
+## 9. PrintAllEvenNumber.java
+```
+DECLARE num : INTEGER
+DECLARE i : INTEGER
+SET i := 0
+READ num
+FOR i := 0 TO num
+    IF i MOD 2 == 0
+        PRINT i
+    END IF
+END FOR
+```
+
+## 10. QuestionEight.java
+```
+DECLARE p,q,r,sum : INTEGER
+SET p = 3, q = 8, r = 1
+SET sum := p+q+r
+IF((p NOT EQUALS 0) and (sum EQUALS 11) and (q EQUALS 4) and (r NOT EQUALS 0))
+    PRINT "Success"
+ELSE
+    PRINT "Fail"
+END IF
+```
+
+## 11. QuestionEleven.java
+```
+SET x to 0
+SET n to 1
+WHILE(n <= 100)
+    x = x + n
+    n = n + 1
+END WHILE
+WRITE x
+```
+
+## 12. QuestionFive.java
+```
+INTEGER p, q, r
+SET p = 6, q = 3, r = 5
+q = 1 + r
+q = 5 + q
+IF(5 < r or (p + r) > (r - p))
+    p = (9 & 7) + p * p
+    q = 5 + q * q
+END IF
+PRINT (p + q + r)
+```
+
+## 13. QuestionFour.java
+```
+INTEGER a, b, c
+SET a = 7, b = 8, c = 9
+IF((a ^ b ^ c) < (b + c + a))
+    b = 6 + a
+END IF
+a = 8 ^ b
+PRINT a + b + c
+```
+
+## 14. QuestionFourteen.java
+```
+INTEGER a,b,c
+SET a := 7, b := 10, c := 9
+FOR (EACH i FROM 3 to 4)
+    a = b
+    IF((b - a + i) < (c + b))
+        CONTINUE
+    ELSE
+        JUMP OUT OF THE LOOP
+    END IF
+    a = (5 + 6) ^ c
+END FOR
+PRINT a + b
+```
+
+## 15. QuestionNine.java
+```
+INTEGER x,y,z
+SET x := 10, y := 6, z = 6
+IF(x > y)
+    x = y
+ELSE
+    y = x
+END IF
+IF(z > y)
+    z = y
+ELSE
+    y = z
+END IF
+PRINT x + y + z
+```
+
+## 16. QuestionOne.java
+```
+INTEGER a,b,c
+SET a = 4, b = 4, c = 4
+IF(a & (b ^ b) & c)
+    a = a >> 1
+END IF
+PRINT a + b + c
+```
+
+## 17. QuestionSeven.java
+```
+INTEGER x,y,z
+SET x = 8, y = 6, z = 4
+IF(x > y)
+    x = y
+ELSE
+    y = x
+END IF
+IF(z > y)
+    z = y
+ELSE
+    y = z
+END IF
+PRINT x + y + z
+```
+
+## 18. QuestionSix.java
+```
+INTEGER x,y,z
+SET x = 10,y = 16,z = 3
+IF(x > y)
+    x = 2 * y
+ELSE
+    y = x / 2
+END IF
+IF(z > y)
+    z = 2 * y
+ELSE
+    y = z / 2
+END IF
+PRINT x + y + z
+```
+
+## 19. QuestionTen.java
+```
+INTEGER x = 9, y = 2, z = 6
+INTEGER a
+a = x & y | z
+PRINT a
+```
+
+## 20. QuestionThirteen.java
+```
+INTEGER a = 2, b = 50
+IF(a MOD 3 IS EQUAL 0)
+    PRINT a
+ELSE
+    PRINT b - 1
+END IF
+b = b / 5
+a = a + 1
+```
+
+## 21. QuestionThree.java
+```
+DECLARE x : INTEGER
+SET x := 259
+IF(x MOD 9 EQUALS 5)
+    PRINT "0"
+ELSE IF(x MOD 9 EQUALS 0)
+    PRINT '9'
+ELSE
+    PRINT x MOD 9
+END IF
+```
+
+## 22. QuestionTwelve.java
+```
+INTEGER p , q , r
+SET p = 0, q = 2, r = 9
+r = 7 + p
+q = q + r
+FOR EACH i FROM 4 to 7
+    p = (p + p) & q
+    if((p + q) < (r - p) || 8 < p)
+        p = (p + 2) + q
+        JUMP OUT OF THE LOOP
+    END IF
+END FOR
+PRINT p + q
+```
+
+## 23. QuestionTwo.java
+```
+INTEGER a,b,c
+SET a = 2, b = 5, c = 10
+FOR(EACH i from 3 to 6)
+    a = (a + a) + a
+    a = (a ^ 11) + i
+END FOR
+b = (9 + 7) + a
+PRINT a + b
+```
+
+## 24. ReverseaNumber.java
+```
+DECLARE n: INTEGER
+DECLARE r: INTEGER
+DECLARE lastdigit: INTEGER
+SET r := 0
+READ n
+WHILE n > 0
+    lastdigit = n MOD 10
+    r = r * 10 + lastdigit
+    n = n / 10
+END WHILE
+PRINT r
+```
+
+## 25. SumOfnIntegers.java
+```
+DECLARE n : INTEGER
+DECLARE sum : INTEGER
+READ n
+sum := 0
+FOR i := 1 TO n
+    sum := sum + i
+END FOR
+PRINT sum
+```
+
+## 26. SumofSquareOfNumbers.java
+```
+DECLARE num : INTEGER
+DECLARE sum : INTEGER
+READ num
+SET sum := 0
+FOR i := 1 TO num
+    sum = sum + i * i
+END FOR
+PRINT sum
+```
