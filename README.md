@@ -472,5 +472,89 @@ return a + b + c
 
 END fun
 ```
+## 34. a = 5, b = 9, c = 2
+```
+INTEGER funn(INTEGER a, INTEGER b, INTEGER c)
+FOR (each i from 4 to 8)
+    a = (a + b) / b
+    a = (c + b) + a
+END FOR
+b = (5 + 10) + a
+a = (10 + b) + a
+FOR (each c from 2 to 5)
+    a = (c - 2) * a
+    b = (3 * c) + a
+END FOR
+RETURN a + b
+END funn
 
+```
+
+## 35.  sum the series 1....n
+```
+FUNCTION sum(n : INTEGER) : RETURN INTEGER
+DECLARE s : INTEGER
+SET s := 0
+FOR i := 1 TO n
+    s := s + i
+END FOR
+RETURN s
+END FUNCTION
+PRINT sum(5)
+```
+
+## 36. Sum the series 1/2 + 1/3 + .... + 1/n
+
+```
+FUNCTION sum (n : REAL) : RETURN REAL
+DECLARE s : REAL
+SET s := 0
+FOR i := 1 TO n
+    s := s + 1 / i
+END FOR
+RETURN s
+END FUNCTION
+PRINT sum(5)
+```
+
+## 37. reverse number
+
+```
+FUNCTION reverse (n : INTEGER) : RETURN INTEGER
+DECLARE a : INTEGER
+DECLARE b : INTEGER
+SET b := 0
+DECLARE x : INTEGER
+SET x := n
+WHILE x > 0 DO
+    a := x MOD 10
+    x := x / 10
+    b := b * 10 + a
+END WHILE
+RETURN b
+END FUNCTION
+PRINT reverse(1234)
+```
+
+## 38. Palindrome
+```
+FUNCTION Palindrome (n : Integer)
+
+DECLARE b : Integer
+DECLARE x : Integer
+DECLARE a : Integer
+WHILE x > 0 DO
+    a := n MOD 10
+    n := n / 10
+    b := b * 10 + a
+END WHILE
+RETURN b
+IF b = n THEN
+    PRINT Palindrome
+ELSE
+    PRINT Not a Palindrome
+ENDIF
+END Palindrome
+PRINT Palindrome(121)
+```
 
