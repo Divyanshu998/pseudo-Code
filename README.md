@@ -382,3 +382,95 @@ FOR i := 1 TO num
 END FOR
 PRINT sum
 ```
+
+## 27. AreaofCircle.py
+'''
+FUNCTION AOC (rad : real) RETURN REAL  
+DECLARE A : REAL  
+A = 3.14 * rad * rad  
+RETURN A  
+END FUNCTION  
+PRINT CALL AOC (5)
+'''
+
+
+## 28. AreaofTriangle.py
+'''
+FUNCTION Tri (base : real, height : real) RETURN REAL  
+DECLARE T : REAL  
+T = 0.5 * base * height  
+RETURN T  
+END FUNCTION  
+PRINT CALL Tri (5,4)
+'''
+
+## 29. Functions + Conditional Statement
+'''
+FUNCTION max (a : INTEGER, b : INTEGER) : INTEGER
+DECLARE c : INTEGER
+IF a > b then
+    c := a
+else
+    c := b
+END IF
+RETURN c
+END FUNCTION
+PRINT max (23,6)
+'''
+
+## 30. Absolute Value
+'''
+FUNCTION abs (x : REAL) : RETURN REAL
+DECLARE B : REAL
+IF x > 0 Then
+    B := x
+else
+    B := -(x)
+END IF
+RETURN B
+END FUNCTION
+PRINT B (5)
+'''
+
+## 31. FACTORIAL
+'''
+FUNCTION factorial (n : INTEGER) RETURN INTEGER
+DECLARE fact : INTEGER
+SET fact = 1
+FOR i in n to 1 step -1
+    fact = fact * i
+END FOR
+RETURN fact
+
+END FUNCTION
+PRINT factorial (5)
+'''
+
+## 32. Called with a = 9, b = 7
+'''
+INTEGER funn (INTEGER a, INTEGER b)
+DECLARE c : INTEGER
+SET c = 2
+b := b mod c
+a := a mod c
+RETURN a + b
+END function
+'''
+
+## 33. called with a = 9, b = 7, and c = 20
+'''
+INTEGER funn (INTEGER a, INTEGER b, INTEGER c)
+IF (a + 3) < (b - 2)
+    c = 4 + b
+    b = (c + c) + b
+ELSE
+    c = (a + 3) ^ 2
+    c = (10 + 8) + b
+END IF
+
+return a + b + c
+
+END fun
+'''
+
+
