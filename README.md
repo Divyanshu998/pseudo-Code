@@ -1,4 +1,4 @@
-# Java Programs Pseudocode
+# Python Programs Pseudocode
 
 This repository contains various Java programs with their corresponding pseudocode.
 
