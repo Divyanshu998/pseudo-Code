@@ -1,0 +1,33 @@
+# Data Structures and Memory Management
+
+## Overview
+Data is fundamentally represented by data values held temporarily within a program's data area or recorded permanently in files. These values are often interrelated. To enable programs to effectively utilize these relationships, data must be structured and organized systematically.
+
+### Buffer
+A **Buffer** is a temporary storage area in memory where data values are held during processing before being transferred to their final destination.
+
+## Definition of a Data Structure
+A **Data Structure (DS)** is an organized collection of data in memory, coupled with a defined set of operations performed on that data.
+**Data Structure = Permitted Data Values + Defined Operations**
+
+---
+
+## Key Data Structures
+
+### 1. Array
+An **Array** consists of data arranged in a sequential format.
+- **Type**: Linear (sequential), Static (fixed-size in many languages), and Homogeneous (all elements are of the same type and size).
+
+### 2. Stack
+A **Stack** follows the **LIFO (Last-In, First-Out)** principle.
+- **Core Operations**: `Push` (insert) and `Pop` (remove).
+- **Type**: Linear data structure; can be implemented dynamically or statically.
+
+### 3. Queue
+A **Queue** follows the **FIFO (First-In, First-Out)** principle.
+- **Core Operations**: `Insert` (enqueue) and `Delete` (dequeue).
+- **Type**: Linear data structure; typically dynamic in nature.
+
+### 4. Tree
+A **Tree** consists of data arranged in a hierarchical, non-sequential format.
+- **Type**: Non-linear, hierarchical, and dynamic data structure.
