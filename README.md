@@ -558,3 +558,44 @@ END Palindrome
 PRINT Palindrome(121)
 ```
 
+## 39. what will be the output of the following if a = 4, b = 4, c = 7 ?
+
+```
+INTEGER funn(INTEGER a, INTEGER b, INTEGER c)
+
+for each c from 2 to 5
+    if (c + a) > b then
+        c = c + a + b
+    if (a % c) < (c + a)
+        b = (a + 1) + c
+    else
+        c = b + b
+        a = a + b
+        continue
+    end if
+end for
+return a + b
+```
+
+## 40. If a = 3, b = 8, c = 7 
+```
+Integer funn (integer a, integer b, integer c)
+
+if (a < b)
+    c = a + 2
+    c = a + c
+end if
+
+Return a + b + c
+```
+
+## 41. If whose will be the value of s if n = 12
+```
+Read n
+s = 0 ; i = 0
+
+while (i <= n)
+    s = s + i * i
+    i = i + 2
+end while
+```
