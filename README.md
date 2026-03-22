@@ -1,6 +1,6 @@
 # Python Programs Pseudocode
 
-This repository contains various Java programs with their corresponding pseudocode.
+This repository contains various Python programs with their corresponding pseudocode.
 
 ## 1. ArmStrongNumber.java
 ```
