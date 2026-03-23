@@ -2,7 +2,7 @@
 
 This repository contains various Python programs with their corresponding pseudocode.
 
-## 1. ArmStrongNumber.java
+## 1. ArmStrongNumber
 ```
 DECLARE num : INTEGER
 DECLARE num1 : INTEGER
@@ -22,7 +22,7 @@ ELSE
     PRINT "Not Palindrome"
 ```
 
-## 2. CheckWhetherDigitisPresent.java
+## 2. CheckWhetherDigitisPresent
 ```
 DECLARE NUM: INTEGIER
 DECLARE Lastdigit : INTEGER
@@ -45,7 +45,7 @@ ELSE
 END IF
 ```
 
-## 3. CountDigitsOfaNumber.java
+## 3. CountDigitsOfaNumber
 ```
 DECLARE num:INTEGER
 DECLARE count:INTEGER
@@ -58,7 +58,7 @@ END WHILE
 PRINT count
 ```
 
-## 4. CountHowManyDigits.java
+## 4. CountHowManyDigits
 ```
 DECLARE num: INTEGER
 DECLARE d: INTEGER
@@ -76,7 +76,7 @@ END WHILE
 PRINT count
 ```
 
-## 5. ExampleOne.java
+## 5. ExampleOne
 ```
 DECLARE x : INTEGER
 DECLARE y : INTEGER
@@ -89,7 +89,7 @@ do {
 END DOWHILE
 ```
 
-## 6. FibonacciSeries.java
+## 6. FibonacciSeries
 ```
 DECLARE n: INTEGER
 DECLARE prev : INTEGER
@@ -107,7 +107,7 @@ WHILE sum <= 0
 END WHILE
 ```
 
-## 7. PalinDromeNumber.java
+## 7. PalinDromeNumber
 ```
 DECLARE n: INTEGER
 DECLARE r: INTEGER
@@ -128,7 +128,7 @@ ELSE
 END IF
 ```
 
-## 8. PrimeNumber.java
+## 8. PrimeNumber
 ```
 DECLARE N:INTEGER
 READ N
@@ -146,7 +146,7 @@ END IF
 PRINT "Prime"
 ```
 
-## 9. PrintAllEvenNumber.java
+## 9. PrintAllEvenNumber
 ```
 DECLARE num : INTEGER
 DECLARE i : INTEGER
@@ -159,7 +159,7 @@ FOR i := 0 TO num
 END FOR
 ```
 
-## 10. QuestionEight.java
+## 10. QuestionEight
 ```
 DECLARE p,q,r,sum : INTEGER
 SET p = 3, q = 8, r = 1
@@ -171,7 +171,7 @@ ELSE
 END IF
 ```
 
-## 11. QuestionEleven.java
+## 11. QuestionEleven
 ```
 SET x to 0
 SET n to 1
@@ -182,7 +182,7 @@ END WHILE
 WRITE x
 ```
 
-## 12. QuestionFive.java
+## 12. QuestionFive
 ```
 INTEGER p, q, r
 SET p = 6, q = 3, r = 5
@@ -195,7 +195,7 @@ END IF
 PRINT (p + q + r)
 ```
 
-## 13. QuestionFour.java
+## 13. QuestionFour
 ```
 INTEGER a, b, c
 SET a = 7, b = 8, c = 9
@@ -206,7 +206,7 @@ a = 8 ^ b
 PRINT a + b + c
 ```
 
-## 14. QuestionFourteen.java
+## 14. QuestionFourteen
 ```
 INTEGER a,b,c
 SET a := 7, b := 10, c := 9
@@ -222,7 +222,7 @@ END FOR
 PRINT a + b
 ```
 
-## 15. QuestionNine.java
+## 15. QuestionNine
 ```
 INTEGER x,y,z
 SET x := 10, y := 6, z = 6
@@ -239,7 +239,7 @@ END IF
 PRINT x + y + z
 ```
 
-## 16. QuestionOne.java
+## 16. QuestionOne
 ```
 INTEGER a,b,c
 SET a = 4, b = 4, c = 4
@@ -249,7 +249,7 @@ END IF
 PRINT a + b + c
 ```
 
-## 17. QuestionSeven.java
+## 17. QuestionSeven
 ```
 INTEGER x,y,z
 SET x = 8, y = 6, z = 4
@@ -266,7 +266,7 @@ END IF
 PRINT x + y + z
 ```
 
-## 18. QuestionSix.java
+## 18. QuestionSix
 ```
 INTEGER x,y,z
 SET x = 10,y = 16,z = 3
@@ -283,7 +283,7 @@ END IF
 PRINT x + y + z
 ```
 
-## 19. QuestionTen.java
+## 19. QuestionTen
 ```
 INTEGER x = 9, y = 2, z = 6
 INTEGER a
@@ -291,7 +291,7 @@ a = x & y | z
 PRINT a
 ```
 
-## 20. QuestionThirteen.java
+## 20. QuestionThirteen
 ```
 INTEGER a = 2, b = 50
 IF(a MOD 3 IS EQUAL 0)
@@ -303,7 +303,7 @@ b = b / 5
 a = a + 1
 ```
 
-## 21. QuestionThree.java
+## 21. QuestionThree
 ```
 DECLARE x : INTEGER
 SET x := 259
@@ -316,7 +316,7 @@ ELSE
 END IF
 ```
 
-## 22. QuestionTwelve.java
+## 22. QuestionTwelve
 ```
 INTEGER p , q , r
 SET p = 0, q = 2, r = 9
@@ -332,7 +332,7 @@ END FOR
 PRINT p + q
 ```
 
-## 23. QuestionTwo.java
+## 23. QuestionTwo
 ```
 INTEGER a,b,c
 SET a = 2, b = 5, c = 10
@@ -344,7 +344,7 @@ b = (9 + 7) + a
 PRINT a + b
 ```
 
-## 24. ReverseaNumber.java
+## 24. ReverseaNumber
 ```
 DECLARE n: INTEGER
 DECLARE r: INTEGER
@@ -359,7 +359,7 @@ END WHILE
 PRINT r
 ```
 
-## 25. SumOfnIntegers.java
+## 25. SumOfnIntegers
 ```
 DECLARE n : INTEGER
 DECLARE sum : INTEGER
@@ -371,7 +371,7 @@ END FOR
 PRINT sum
 ```
 
-## 26. SumofSquareOfNumbers.java
+## 26. SumofSquareOfNumbers
 ```
 DECLARE num : INTEGER
 DECLARE sum : INTEGER
